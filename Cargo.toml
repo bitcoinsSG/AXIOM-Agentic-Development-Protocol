@@ -1,0 +1,46 @@
+[package]
+name = "axiom-framework"
+version = "0.1.0"
+edition = "2021"
+description = "Autonomous eXpert Intelligence Operations Management - A security-first, multi-agent development framework"
+license = "MIT"
+repository = "https://github.com/your-org/axiom-framework"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.0", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+async-trait = "0.1"
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Consensus and cryptography
+ed25519-dalek = "2.0"
+sha2 = "0.10"
+blake3 = "1.0"
+
+# Network and messaging
+reqwest = { version = "0.11", features = ["json"] }
+tungstenite = "0.20"
+
+[dev-dependencies]
+cargo-audit = "0.18"
+proptest = "1.0"
+tokio-test = "0.4"
+mockall = "0.11"
+
+[[bin]]
+name = "axiom-orchestrator"
+path = "src/orchestrator/main.rs"
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+debug = true
