@@ -18,7 +18,7 @@ The AXIOM framework consists of:
 
 - **Orchestrator**: Central coordination and consensus management
 - **Specialized Agents**: Domain experts (security, testing, architecture, etc.)
-- **Consensus Protocol**: Byzantine fault-tolerant decision making
+- **Consensus Protocol**: Byzantine fault-tolerant decision making   [ Projected for the near future]
 - **Handoff System**: Structured work transitions between agents
 - **Quality Gates**: Automated validation and approval workflows
 
@@ -72,6 +72,7 @@ AXIOM-Agentic-Development-Protocol/
 │   ├── prd.md              # Project Requirements Document
 │   ├── current-status.md   # Real-time status tracking
 │   └── task-log/           # Historical execution records
+│   └── mission-statement.md# Mission Statement and high level decree of project to be used as reference for alignment
 └── docs/                   # Additional documentation
 ```
 
@@ -117,5 +118,5 @@ Framework evolution through AXIOM Improvement Proposals (AIMs):
 
 ## Status
 
-🚧 **Early Development** - Core consensus protocol and agent framework in active development.
+🚧 **Early Development[DO NOT USE FOR PRODUCTION]** - Core consensus protocol and agent framework in active development.
 
