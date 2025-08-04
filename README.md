@@ -1,4 +1,4 @@
-# AXIOM Framework
+# AXIOM
 
 **A**utonomous e**X**pert **I**ntelligence **O**perations **M**anagement
 
