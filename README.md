@@ -1,6 +1,9 @@
 # AXIOM
 
 **A**utonomous e**X**pert **I**ntelligence **O**perations **M**anagement
+<p align="center">
+  <img src="assets/logo.png" alt="AXIOM" width="400"/>
+</p>
 
 A security-first, multi-agent development framework for decentralized systems development. AXIOM orchestrates specialized AI agents through consensus-driven workflows, ensuring high-quality, secure, and reliable software delivery.
 
